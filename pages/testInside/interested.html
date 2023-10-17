@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gyzyklanýan ugruňy tap</title>
+    <link rel="stylesheet" href="./../../assets/stylesheets/main.css" />
+    <link rel="icon" href="./../../assets/images/logo.jpg" />
+  </head>
+  <body onload="onload_fn()">
+    <!-- ability section start -->
+    <section class="ability" id="interested">
+      <div class="definition">
+        <p class="question">Gyzyklanýan ugruňy öwrenmek näme üçin gerek?</p>
+        <p class="answer">
+          Biziň hemmämiz käbir çäreleri ýa-da temalary beýlekilerden has gowy
+          gyzyklanýarys. Siziň gyzyklanmalaryňyz we işlemegi halaýşyňyz,
+          käriňizi tapmak ýolunda karar berlende göz öňünde tutulmaly möhüm
+          taraplardyr. Bu synag arkaly siz havsy zatlar bilen has gowy
+          gyzyklanýanyňyzy öwrenip bilersiňiz .
+        </p>
+      </div>
+      <div class="content">
+        <div class="ability_tests">
+          <p class="title">Gyzyklanýan ugruňy öwrenmegiň testlary:</p>
+
+          <div class="tests_cards" id="tests_cards">
+            <!-- <p class="cat_name">Lingwistik (linguistic):</p>
+            <div class="card_item">
+              <p class="test_q">
+                1. Siz söz oýunlaryny oýnamakdan, hekaýalary okamakdan lezzet
+                alýarsyňyz we degişmeleri we ýaňlytmaçlary aýtmagy halaýaňyz.
+              </p>
+              <ul class="test_ans">
+                <li onclick="testAnswerChecker('yes')" id="yes">hawa</li>
+                <li onclick="testAnswerChecker('no')" id="no">yok</li>
+              </ul>
+            </div> -->
+          </div>
+        </div>
+
+        <div class="result_btn hide" id="result_btn" onclick="showResult_fn()">
+          Netijäni görkez
+        </div>
+      </div>
+    </section>
+    <!-- ability section end -->
+
+    <!-- result section start -->
+    <section class="interested_result hide" id="result"></section>
+    <!-- result section end -->
+
+    <script src="./../../script/pages/interested.mjs"></script>
+  </body>
+</html>

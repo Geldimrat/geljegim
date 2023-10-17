@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geljegim</title>
+    <link rel="stylesheet" href="./assets/stylesheets/main.css" />
+    <link rel="icon" href="./assets/images/logo.jpg" />
+  </head>
+  <body onload="onload_fn()">
+    <!-- header start -->
+    <div class="header" id="header">
+      <div class="content">
+        <div class="logo">Geljegim</div>
+        <nav class="nav_menu">
+          <ul>
+            <li class="hide" id="skill_tests">
+              <a href="./pages/tests.html">Hünär testlary</a>
+            </li>
+            <li id="username">
+              <span onclick="register_page('show')">Hasaba alyn</span>
+            </li>
+            <li class="dropdown hide" id="profile">
+              <div
+                class="dropbtn"
+                id="profile_letter"
+                onclick="profile_show_fn()"
+              >
+                A
+              </div>
+              <div class="dropdown-content hide" id="dropdown-content">
+                <p id="p_name">Altynay</p>
+                <p id="p_surname">Gurbanowa</p>
+                <button onclick="log_out_fn()">Hasapdan cyk</button>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- header end -->
+
+    <!-- login section start -->
+    <div class="login hide" id="login">
+      <p class="text">Hasaba alynyň</p>
+      <div class="content">
+        <div class="input">
+          <label for="name">Adyňyz:</label>
+          <input
+            type="text"
+            required
+            autocomplete="off"
+            id="name"
+            onfocus="focus_fn('u')"
+            onblur="focus_fn('out')"
+          />
+        </div>
+        <div class="input">
+          <label for="surname">Familýaňyz:</label>
+          <input
+            type="text"
+            required
+            autocomplete="off"
+            id="surname"
+            onfocus="focus_fn('p')"
+            onblur="focus_fn('out')"
+          />
+        </div>
+        <div class="forget_login_btn">
+          <input
+            type="button"
+            class="login_btn"
+            onclick="register_page('login')"
+            value="Girmek"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- login section end -->
+
+    <!-- home section start -->
+    <section class="home" id="home">
+      <div class="content">
+        <p class="text">Hünäriňi kesgitle</p>
+        <p class="sub_text">
+          "Geljegim" - ýetginjeklere hünärini saýlamaga we ukyplaryny
+          kesgitlemäge kömek edýän web platforma.
+        </p>
+        <div class="images_grid_container">
+          <div class="grid_item">
+            <img src="./assets/images/home/1.gif" alt="" />
+          </div>
+          <div class="grid_item">
+            <img src="./assets/images/home/2.gif" alt="" />
+          </div>
+          <div class="grid_item">
+            <img src="./assets/images/home/3.gif" alt="" />
+          </div>
+          <div class="grid_item">
+            <img src="./assets/images/home/4.gif" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- home section end -->
+
+    <script src="./script/app.mjs"></script>
+  </body>
+</html>

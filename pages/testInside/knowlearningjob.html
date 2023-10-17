@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Öwrenýän usulyňy bil</title>
+    <link rel="stylesheet" href="./../../assets/stylesheets/main.css" />
+    <link rel="icon" href="./../../assets/images/logo.jpg" />
+  </head>
+  <body onload="onload_fn()">
+    <!-- learningjob section start -->
+    <section class="learning" id="learning">
+      <div class="definition">
+        <p class="question">Öwrenmek usulyňyz barada bilmek näme üçin gerek?</p>
+        <p class="answer">
+          Öwrenmegiň birnäçe usuly bar. Bu test, nädip öwrenýändigiňizi öwrenmek
+          üçin gowy ilkinji ädimdir. 3 sany öwrenmek usulynyň haýsysy size
+          degişlidigini anyklamaga kömek eder: görmek arkaly, eşitmek arkaly we
+          ellemek arkaly.
+        </p>
+      </div>
+      <div class="content">
+        <div class="learning_test">
+          <p class="title">Öwrenmek usulynyň testi:</p>
+          <div class="learning_test_cards" id="learning_test_cards">
+            <div class="card_item">
+              <p class="test_q">
+                1. Komputeri nähili ulanmalydygyny öwrenemde,men makul bilýärin:
+              </p>
+              <ul class="test_ans">
+                <li onclick="testAnswerChecker('yes')" id="yes">hawa</li>
+                <li onclick="testAnswerChecker('yes')" id="yes">hawa</li>
+                <li onclick="testAnswerChecker('yes')" id="no">yok</li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="result_btn hide"
+            id="result_btn"
+            onclick="showResult_fn()"
+          >
+            Netijäni görkez
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- learningjob section end -->
+
+    <!-- result section start -->
+    <section class="result hide" id="result"></section>
+    <!-- result section end -->
+
+    <script src="./../../script/pages/learning.mjs"></script>
+  </body>
+</html>

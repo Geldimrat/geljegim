@@ -1,0 +1,134 @@
+// result sectiion start
+.interested_result {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 50px 0;
+
+  .content {
+    width: 95%;
+    margin: 0 auto;
+
+    .result_title {
+      font-family: $textFond;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 30px;
+      font-weight: bold;
+      color: $mainTextColor;
+
+      @include desktop {
+        font-size: 40px;
+      }
+
+      @include mobile {
+        font-size: 24px;
+      }
+    }
+    .interested_result_content {
+      margin-top: 50px;
+
+      p.name {
+        font-family: $textFond;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 28px;
+        font-weight: bold;
+        color: $mainTextColor;
+        text-align: center;
+
+        @include desktop {
+          font-size: 30px;
+        }
+
+        @include mobile {
+          font-size: 22px;
+        }
+
+        .username {
+          color: rgb(184, 0, 0);
+        }
+      }
+
+      .sides {
+        margin-top: 50px;
+        width: 100%;
+        @include flexBox(space-between, flex-start);
+
+        @include desktop {
+          margin-top: 70px;
+        }
+
+        @include mobile {
+          flex-direction: column;
+        }
+
+        .left {
+          width: 45%;
+          @include flexBox(center, center);
+
+          @include mobile {
+            width: 100%;
+          }
+
+          img {
+            // margin-right: 80px;
+            width: 55%;
+          }
+        }
+
+        .right {
+          width: 55%;
+
+          @include mobile {
+            margin-top: 50px;
+            width: 100%;
+          }
+
+          p.text {
+            width: 95%;
+            font-family: $textFond;
+            letter-spacing: 1px;
+            line-height: 30px;
+            font-size: 24px;
+            font-weight: bold;
+            color: black;
+
+            @include desktop{
+              font-size: 26px;
+            }
+
+            @include mobile {
+              font-size: 24px;
+              text-align: center;
+            }
+          }
+
+          ul {
+            margin-top: 40px;
+            margin-left: 25px;
+
+            @include mobile {
+              @include flexBox(center, flex-start);
+              flex-direction: column;
+              margin-left: 50px;
+            }
+            li {
+              word-wrap: break-word;
+              font-family: $textFond;
+              letter-spacing: 1px;
+              line-height: 30px;
+              font-size: 24px;
+              font-weight: bold;
+              color: black;
+              &:not(:first-child) {
+                margin-top: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// result sectiion end

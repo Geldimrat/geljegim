@@ -1,0 +1,15 @@
+// base folder
+@import "./base/reset", "./base/mixins", "./base/_variables.scss";
+
+// pages folder
+@import "./pages/index", "./pages/login", "./pages/tests", "./pages/ability",
+  "./pages/knowlearningjob", "./pages/interested";
+
+html {
+  //   max-width: 1440px;
+  margin: 0 auto;
+}
+
+.hide {
+  display: none;
+}
