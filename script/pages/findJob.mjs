@@ -374,27 +374,27 @@ const answers = {
     findJob: [
         {
             name: questions.findJob[0].name,
-            jobs: 'Uçarman, daýhan, bagban, gurluşykçy, inezener, ýaragly gullugyň işgärleri, mehanik, abzalçy, elektrikçi, kompýuter tehnigi, seýilgäh dolandyryjysy, sportçy,   weterinar we harby,  geologiýa, geofizika, nebit ineener, nebit geologiýasy, radiografiýa'
+            jobs: 'Uçarman, daýhan, bagban, gurluşykçy, inezener, ýaragly gullugyň işgärleri, mehanik, abzalçy, elektrikçi, kompýuter tehnigi, seýilgäh dolandyryjysy, sportçy,   weterinar we harby,  geologiýa, geofizika, nebit ineener, nebit geologiýasy, radiografiýa, Oba hojalygynyň tehnigi ,Daýhan, Tokaýy ýa-da tebigaty goraýyş işgäri, ýangyn söndüriji, sülçi, ýük awtoulag sürüji, awtoulag hyzmaty tehnigi, Senagat enjamlary mehaniki, lukmançylyk enjamlaryny abatlaýjy, awiasiýa tehnigi, Elektrik liniýasyny gurnaýjy we abatlaýjy, telekommunikasiýa enjamlaryny gurnaýjy we abatlaýjy, aşpez, Suw arassalaýjy zawodyň operatory, Gözegçi ýa-da Synagçy, dişdoktor'
         },
         {
             name: questions.findJob[1].name,
-            jobs: 'Ylym işgäri, gözlegçi, lukmançylyk we saglyk hünärleri, himikçi, deňiz alymy, tokaý tehnigi, lukmançylyk ýa-da oba hojalygy barlaghanasynyň tehnigi, haýwanlary goraýjy, diş lukmany, lukman, biolog, ulgam gözegçisi'
+            jobs: 'Ylym işgäri, gözlegçi, lukmançylyk we saglyk hünärleri, himikçi, deňiz alymy, tokaý tehnigi, lukmançylyk ýa-da oba hojalygy barlaghanasynyň tehnigi, haýwanlary goraýjy, diş lukmany, lukman, biolog, ulgam gözegçisi, Topragy gorap saklaýjy, Daşky gurşaw alymy, Iýmit alymy, Kliniki barlaghana tehnigi, Diagnostiki lukmançylyk sonografy, Maglumat howpsuzlygy analitigi, Programma üpjünçiligi, Amallar gözleg analitigi, Statistik, Ykdysatçy, Marketing gözlegçisi, Psiholog, Gurluşyk inẑereneri'
         },
         {
             name: questions.findJob[2].name,
-            jobs: 'Suratkeş, komputer dizaýneri, suratçy, gol ýazyjy, kompozitor, aýdymçy, sazanda, tansçy, aktýor, habarçy, ýazyjy, redaktor, mahabat beriji, dellekçi, moda dizaýneri, arhitektor'
+            jobs: 'Suratkeş, komputer dizaýneri, suratçy, gol ýazyjy, kompozitor, aýdymçy, sazanda, tansçy, aktýor, habarçy, ýazyjy, redaktor, mahabat beriji, dellekçi, moda dizaýneri, arhitektor, Döredijilik ýazyjysy, Grafiki dizaýner, Drama we tans Aktýory,Aragatnaşyk ýaýlym habarlary analitigi, terjimeçi, Aragatnaşyk tehniki ýa-da ylmy redaktor ýa-da ýazyjy'
         },
         {
             name: questions.findJob[3].name,
-            jobs: 'Mugallym, şepagat uýasy, şepagat uýasynyň kömekçisi, geňeşçi, polisiýa işgäri, jemgyýetçilik işgäri, satyjy, müşderi hyzmat gullugynyň işgäri, ofisiant, kätip'
+            jobs: 'Mugallym, şepagat uýasy, şepagat uýasynyň kömekçisi, geňeşçi, polisiýa işgäri, jemgyýetçilik işgäri, satyjy, müşderi hyzmat gullugynyň işgäri, ofisiant, kätip, Lukmançylyk we jemgyýetçilik saglygy jemgyýetçilik işgäri, Fiziolog, Lukman kömekçisi, orta hünär okuw mekdep mugallymy, orta mekdebiniň mugallymlary, sport tälimçisi, fitnes tälimçisi'
         },
         {
             name: questions.findJob[4].name,
-            jobs: 'Satyjy, aklawçy, syýasatçy, buhgalter,telekeçi, ýerine ýetiriji ýa-da dolandyryjy, syýahat agenti, aýdym-saz ýa-da sport bilen meşgullanýan, marketingçi'
+            jobs: 'Satyjy, aklawçy, syýasatçy, buhgalter,telekeçi, ýerine ýetiriji ýa-da dolandyryjy, syýahat agenti, aýdym-saz ýa-da sport bilen meşgullanýan, marketingçi, satuw inẑereneri, satuw ýa-da bölek alyjy, dellekçi, saç düzüjisi ýa-da kosmetolog, uçuş hyzmatçysy, syýahat agenti, hukuk kömekçisi, aşpez / baş aşpez, gurluşyk menejeri, satyn alyş dolandyryjysy, Maliýe buhgalteri ýa-da auditor, Maliýe baha beriji, gozgalmaýan emläk, şahsy maliýe geňeşçisi, Hökümet we döwlet dolandyryşy arhiwçi, bilim dolandyryjysy, Lukmançylyk we saglyk gullugynyň dolandyryjysy, mahabaty we mahabat menejeri , Jemgyýetçilik gatnaşyklary dolandyryjysy, satuw menejeri, Maliýe synagçysynyň immigrasiýa ýa-da gümrük gözegçisi, zähmet howpsuzlygy we saglyk gözegçisi'
         },
         {
             name: questions.findJob[5].name,
-            jobs: 'Döwlet sekretary, kabul ediji, ofis işgäri, kitaphanaçy, bank işgäri, kompýuter operatory, kätip, buhgalter'
+            jobs: 'Döwlet sekretary, kabul ediji, ofis işgäri, kitaphanaçy, bank işgäri, kompýuter operatory, kätip, buhgalter, çykdajylaryny kesgitleýji, maliýe analitigi, talap ediji, synagçy ýa-da derňewçiniň, Maliýe jikme-jigi ätiýaçlandyryşy talap ediji, polisiýa, ýangyn ýa-da tiz kömek dispetçeri, kabul ediji ýa-da maglumat işgäri, kazyýetiň habarçysy, Lukmançylyk ýazgylary we saglyk maglumatlary tehniki, önümçilik, meýilleşdiriş ýa-da çaltlaşdyryjy işgärler, býudjet analitigi'
         },
     ]
 }
